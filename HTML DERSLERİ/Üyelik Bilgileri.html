@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>ödev</title>
+</head>
+<body>
+	<form action="Kayit.aspx" method="get">
+		<h2 style="color: red;">Üyelik Bilgileri</h2>
+		<table border="0" cellpadding="5" style="width:600px; border: 2px solid red;">
+			<tr>
+				<td  width="50%"><strong>Ad:</strong></td>
+				<td align=""><strong>Soyad:</strong></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="ad"></td>
+				<td ><input type="text" name="soyad"></td>
+			</tr>
+			<tr>
+				<td><strong>E.Posta></strong></td>
+				<td><strong>E.Posta Tekrar</strong></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="mail"></td>
+				<td><input type="text" name="mail"></td>
+
+			</tr>
+			<tr>
+				<td><strong>Dogum Tarihi</strong></td>
+				<td><strong>Cinsiyet:</strong></td>
+			</tr>
+			<tr>
+				<td>
+					<select name="gün">
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option selected>Gün</option>
+					</select> /
+					<select>
+						<option>ocak</option>
+						<option>şubat</option>
+						<option>mart</option>
+						<option selected>Ay</option>
+					</select> /
+					<select>
+						<option>2000</option>
+						<output>2001</output>
+						<option>2002</option>
+						<option selected>Yıl</option>	
+					</select>
+				</td>
+				<td>
+					<input type="radio" name="Cinsiyet" value="K" id="k"><label for="k">Kadın</label>
+					<input type="radio" name="Cinsiyet" value="E" id="e"><label for="e">Erkek</label>
+				</td>
+			</tr>
+			<tr>
+				<td><strong>Şehir:</strong></td>
+				<td><strong>Cep Telefonu:</strong></td>
+			</tr>
+			<tr>
+				<td>
+					<select>
+						<option>adana</option>
+						<option>mersin</option>
+						<option>istanbul</option>
+						<option selected>Şehir Seçin</option>
+					</select>
+				</td>
+				<td>
+					<input type="text" name="alan" size="1" maxlength="3" placeholder="//"><input type="text" name="numara" size="6" maxlength="7">
+				</td>
+			</tr>
+			<tr>
+				<td><strong>Güvenlik Kodu</strong></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="kod"></td>
+				<td><input type="checkbox" name="chc">Üyelik sözleşmesini kabul ediyorum</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="submit" name="gönder" value="Ücretsiz Kayıt Ol"></td>
+			</tr>
+		</table>
+	</form>
+
+</body>
+</html>

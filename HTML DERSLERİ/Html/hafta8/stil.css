@@ -1,0 +1,41 @@
+h1{
+	font-style: italic;/*eğik olup olmamasını belirleyen özellik*/
+	font-weight: normal;/*kalın olma durumunu belirleyen özellik 'bold' değerini alırsa kalın olur.*/
+	font-size: 22px;/*yazı boyutu*/
+	font-family:"Comic Sans MS";/*Yazı tipini belirler.*/
+	color: red;
+	text-align: center;/*Yazıyı Yatay olarak sayfada ortalama*/
+	text-transform: uppercase;/*Tüm harfleri büyük yapar. / lowwercase: Tüm harfler küçük. / capitalize: Yalnızca kelimelerin ilk harfini büyük yapar.*/
+	text-indent: 50px;/*Girintileme paragraf başı başlama noktasıdır. soldan başluk bırakır.*/
+	text-decoration: ;/*altçizgi ile ilgili aldığı değerler:
+	underline: alt çizgi ekler
+	overline: üzerini çizer
+	none: çizgi varsa kaldırır
+	line-through: yazının üstünü çizer*/
+
+}
+a{
+	width: 120px;
+	height: 40px;
+	margin-bottom: 20px;
+	background-color: orange;
+	text-align: center;
+	line-height: 40px;
+	text-decoration: none;
+	border-radius: 35px;
+	color: aqua;
+
+	/*a etiketi satır içi elemandır ve genişlik ile yükseklik verilemez.
+	Vermek için öncelikle blok elemana dönüştürmeliyiz.*/
+}
+/* a:hover kodu mouse üzerine gelindiğinde ne yapıcağını yapar. */
+a:hover{
+	box-shadow:3px 0px 15px olive;
+	/*box-shadow kodunun / 1. değeri gölgenin sağına -koduyla soluna / / 2. değeri altına - koduyla üstüne  / 
+	/ üçüncü değeri dağılma oranını belirler / / 4. değeri rengini belirler / */
+}
+.btn{
+	display: block;
+}
+
+/*Harfler arası boşluğu belirleyen kod 	letter-spacing kodudur.*/

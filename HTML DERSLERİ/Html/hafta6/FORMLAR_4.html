@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>HTML FORM ELEMALARI</title>
+</head>
+<body>
+	<form action="mailto:pmyo@klu.edu.tr" method="post">
+		<p>Şehir Seçin:</p><!-- tek seçim yapılmalı-->
+		<select name="sehir">
+			<option>Edirne</option>
+			<option>İstanbul</option>
+			<option>Adana</option>
+			<option>Mardin</option>
+			<option>İzmir</option>
+			<option>Yozgat</option>
+			<option>Konya</option>
+			<option selected >--Şehir Secçin--</option>
+		</select>
+		<p>Lütfen dersler seçimini yapın.</p>
+		<!--Listboxx kontrolü ile ders seçeneklerini verip, birden fazla seçim yapılabilmseini sağlayalım.-->
+		<select name="ders" size="6" multiple>
+			<option>Web Programlama</option>
+			<option>Matematik</option>
+			<option>İngilizce</option>
+			<option>Ofis Yazılımları</option>
+			<option>Grafik ve Animasyon</option>
+		</select>
+		<p>Porfil Fotoğrafınızı Yükleyiniz:
+			<input type="file"></p>
+		<br/>
+		<br/>
+		<input type="submit" value="Gönder">
+
+	</form>
+
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Linkler</title>
+	<style type="text/css">
+		body{
+			background-color: aquamarine;
+		}
+	</style>
+</head>
+<body>
+<!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+	<strong>Lütfen erişmek istediğiniz içeriği seçiniz:</strong>
+	<p><a href="#bolum1">Sayfalar Arası Linkler</a></p>
+	<p><a href="#bolum2">Sayfa İçi Linker</a></p>
+	<p><a href="#bolum3">Dosya Linkleri</a></p>
+	<p><a href="#bolum4">Mail Linkleri</a></p>
+<!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+	<h1>HTML Sayfalarına bağlantı ekleme</h1>
+
+	<p>Bir web sayfasına, site klasöründe var olan herhangi bir uzantıya sahip dosyaya aynı sayfanın farklı bir bölümüne yada bir mail adresine bağlantı oluşturmak için &lt;a&gt; etiketi kullanırız.<br/>Oluşturduğumuz bağlantıda tıkladığımızda açılacak sayfa adresini a etiketini ekleyeceğimiz href parametresi ile belirleriz.<br/>Varsayılan olarak hedef adres aynı pencerede açılır yeni bir pencere açılmasını istediğimiz bağlantıya target parametresini ekleyip değerini "_blank" olarak belirlemeliyiz.</p>
+	<p style="font-size: 20px;">Daha detaylı bilgi almak için <a href="https://www.learn-html.org/en/Links" style="color: hotpink;" target="_blank">tıklayın.</a></p>
+	<p>HTML'de 4 çeşit bağlantı oluşturabiliriz.</p>
+
+<!--/////////////////////////////////////////////////////////////////////////////-->
+	<h4 style="color: orangered; font-size: 20px;"> <a name="bolum1">1-) Sayfalar Arası Linkler</a></h4>
+<!--/////////////////////////////////////////////////////////////////////////////-->
+	<p>Farklı bir web sayfasına yada kendi sitemiz içinde tanımlı farklı bir HTML sayfasına bağlantı oluşturur. Örnek olarak görelim</p>
+	<p>Metin Format Etiketleri hakkında bilgi almak için 
+	<a href="metin_format_etiketleri.html" target="_blank">tıklayın</a></p>
+	<p>Pınar Hisar Meslek Yüksekokulu adresine gitmek için <a href="https://pmyo.klu.edu.tr" target="_blank">tıklayın.</a></p>
+
+<!--/////////////////////////////////////////////////////////////////////////////-->
+	<h4 style="color: orangered; font-size: 20px;"><a name="bolum2">2-) Sayfa İçi Linkler </a></h4>
+<!--/////////////////////////////////////////////////////////////////////////////-->
+	<p>Aynı sayfanın farklı bir bölümüne (sayfa başı, sayfa sonu gibi) bağlantı oluşturur. Sayfa içi link oluşturulmadan önce linke tıklandığında erişilecek sayfa bölümü yer imi (Anchor) eklenerek tanımlanmalıdır. <br/>Yer imi eklemek için &lt;a&gt; etiketi kullanılır bu etikete "name" parametresi verilerek yer imi adı tanımlanır. Sayfa içi linkin hedef adresi tanımladığımız bu yer iminin başına "#" karakteri getirilerek belirlenir.</p>
+	<br/><br/>
+	<hr/>
+<!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+	<p>Savaş, Japon kültüründe önemli bir yer teşkil eder. Ülkenin önemli klanları birbirleriyle pek çok kez karşı karşıya gelmiştir. Japon topraklarının sadece %20’sinin tarıma elverişli oluşu, toprak kavgasını doğurmuştur. Toprak savaşları da hem dinsel, hem de fiziksel gelişim ve mücadele yöntemlerini gerektirdiğinden, Samurayların gelişimi de bu olguya dayalıdır.
+
+	M.Ö. 660'ta Ölümsüz Savaşçı adıyla bilinen Jimmu Tenno, bir kabilenin başına geçti. Tenno ve kabilesi Yamato bölgesine yerleştiler. Yamato klanı Asya’ya çeşitli seferler düzenledi. Kore ve Çin’in kültürel zenginliklerinden, teknolojilerinden ve savaş sanatlarından etkilendiler. İmparator Keiko, tarihte "Shogun" unvanını taşıyan ilk kişi oldu. Bir nevi generallik rütbesi gibi de anlaşılabilecek Shogun unvanı, Keiko’nun savaş sanatlarında geldiği üst noktayı da belirliyordu. Onun oğlu Prens Yamato da savaş sanatları konusunda çok yetenekliydi. Korkusuz, güçlü, gözüpek bir genç olarak tanındı ve Samuraylık anlayışında bir örnek teşkil etti.
+
+	Samuraylar "buşido" anlayışını temel almıştır. Buşido, "Savaşçının Yolu" anlamına gelir. Buşido felsefesinde korkunun yeri yoktur. Samuray, ölüm korkusunu yenmiş kişidir. Bu, dinginlik kazandırır ve efendiye sadakat sağlardı.
+
+	9.-12. yüzyıllar arasında samuraylar bir sınıf haline geldi. İki adla anılırlardı: Samuray (şövalye), Buşi (savaşçılar). Bu insanların bir kısmı yönetici sınıflara bağlıydılar. Bir kısmı ise para karşılığı savaşırlardı. Samuraylar, feodal derebeylerine (Daimyo) bütünüyle bağlıydılar. Hizmetlerinin karşılığında mevki ve arazi alırlardı. Daimyo’lar, Samurayları daha fazla arazi kazanmak ve gücünü arttırmak için kullanırlardı.
+
+	Samuraylar, at üstünde, yaya, silahlı, silahsız dövüş konusunda eğitilmişlerdi. Ok da kullanırlardı. Ancak, 13. yüzyılda Moğol savaşları yaşandıktan sonra, Samurayların kılıç kullanımı ağırlık kazandı. Hatta mızrak ve naginata denen ucu kılıç şekilli mızraklar kullanmaya başladılar.Samurayların iki kılıcı olurdu. Uzun kılıç daito-katana, kısa kılıç shoto-wakizashi’ydi. Ayrıca tanto adı verilen bıçaklara sahiptiler. Samuraylar çoğunlukla kılıçlarına isim (mei) verirler ve onların ruhuna inanırlardı. Çift kılıç taşıma ve kullanmaya daisho denirdi.
+
+	1605 yılında Japonya’nın gelmiş geçmiş en ünlü samurayı Miyamoto Musaşi, savaşçı yetiştirmek için bir okul açtı. 30 yaşına gelmeden 60'ın üzerinde kılıç dövüşünden galip çıkmayı başaran bu usta, yıllarca kendi okulunda dersler verdi. 1615 yılında bir başka tanınmış Samuray, Tokugawa Ieyasu, samuraylık hakkında bir kitap yazdı ve Samurayların barış zamanı yaşam biçimleri konusunda çeşitli bilgiler verdi.
+
+	Samuray geleneği, 1876 yılında İmparator Meiji tarafından ortadan kaldırıldı. Kılıç taşıma kanunlarını değiştiren Meiji, Samuraylığı tarihe karıştırdı. Ancak ve ancak imparatorluk ordusunda bazı rütbeli subaylar tören amaçlı kılıçlar taşırdı. 20. yüzyılda kılıç tekrar serbestleşti ancak askeri kullanım dışında sportif gelişim için kullanılmaya başlandı. II. Dünya Savaşı'ndan da hatırlanacağı gibi tüm rütbeliler, hatta kamikaze pilotları da kılıçlıydı. Bushi öğretisinde, hece olarak geçen shi ibaresinin aynı zamanda ölüm demek olduğunu hatırlatalım. Yani, bir nevi bushidoka ölüm korkusunu yenmiş kişidir.
+
+	Samuraylar silahlı ve silahsız dövüş için jujutsu savaş sanatını kullanırlardı.
+
+	Sadece spor değil bir bilim dalı Samuraylar, ortaçağ Japonyası'nda savaş sanatını düşmanlarını kısa yoldan ve en etkili şekilde saf dışı bırakma yöntemi olarak kullanıyordu. İç savaşın bitmesiyle Samuraylar insan ruhunun eğitimine yönelik gizli gücün farkına vardılar. Savaş eğitimiyle birlikte akılla bedeni birlikte eğitmeye başladılar. Ve böylece Aiki Jutsu ortaya çıktı. 1869'da tüm Japonya'da kullanılmaya başladı. Aikido ilk olarak Japonya'da 1935'li yıllarda Morihei Uyeshiba tarafından ortaya çıkarılmış, şekillendirilmiş bir savunma sanatıdır. Günümüzde ise spordan öte bir bilim dalı olarak görülmektedir.</p>
+<!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+	<hr/>
+<!--/////////////////////////////////////////////////////////////////////////////-->
+	<h4 style="color: orangered; font-size: 20px;"><a name="bolum3">3-) Dosya Linkleri</a></h4>
+<!--/////////////////////////////////////////////////////////////////////////////-->
+	<p>Site klasörünüz altında bulunan bir resim, müzik video vb. gibi herhangi bir uzantıya sahip dosyaya bağlantı oluşturur. örnek olarak görelim:</p>
+
+	<p>Resmi görüntülemek için<a href="dosyalar/image.jpg" target="_blank">tıklayınız.</a></p>
+
+	<p>Müzik dinlemek için <a href="dosyalar/ses.mp3" target="_blank">tıklayınız.</a></p>
+
+	<p>Videoya ulaşmak için <a href="dosyalar/video.mp4" target="_blank">tıklayınız.</a></p>
+
+	<p>Uygulama dosyasını indirmek için <a href="dosyalar/ders1.docx">tıklayınız.</a></p>
+<hr/>
+<!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<!--/////////////////////////////////////////////////////////////////////////////-->
+	<h4 style="color: orangered; font-size: 20px;"><a name="bolum4">4-) Mail Linkleri</a></h4>
+<!--/////////////////////////////////////////////////////////////////////////////-->
+	<p>Bir mail adresine bağlantı oluşturur. Bağlantı verilecek mail adresinin başına "mailto:" bildirimi getirilmelidir. Örnek olarak görelim:</p>
+	<p>Bizimle iletişime geçmek için <a href="mailto:baranalyar7@gmail.com"> tıklayın</a></p>
+	<p>Maile konu belirlemek için mailto:baranalyar7@gmail.com?subject=mailkonusu şeklinde kullanılabilir. "?subject="</p>
+	<p>Bizimle iletişime geçmek için <a href="mailto:baranalyar7@gmail.com?subject=mailkonusu"> tıklayın</a></p>
+	<p>Paragraf</p>
+	<p>Paragraf</p>
+	<p>Paragraf</p>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Tablolar</title>
+</head>
+<body>
+
+<!-- 2 satır 2 sütunlu bir tablo oluşturalım. -->
+<table border="2" cellspacing="0" cellpadding="" width="500" height="200" align="center">
+	<!--Yeni bir satır ekledik -->
+	<tr align="right" style="background-color: olive; color: orange;">
+		<!-- Hücre oluşturduk-->
+		<td>Hücre 1 </td>
+		<td>Hücre 2 </td>
+	</tr>
+	<tr>
+	<td align="center">Hücre 3 </td>
+	<td align="right" valign="top">Hücre 4</td>	
+	</tr>
+	<tr >
+		<td align="center" valign="bottom">Hücre 5</td>
+		<td style="background-color: orange; color: olive;" >Hücre 6</td>
+	</tr>
+</table>	
+<!-- Tablodun hücreleri arasındaki boşluğu belirleyen özellik cellspacing özelliğidir. Table etiketine ait bir özelliktir. Varsayılan değeri 1'dir. Hücreler arasında boşluk görünsün istemiyorsak bu değeri sıfırlamalıyız.-->
+
+<!-- Tablo içeriğinin kenarlıklara olan uzaklığını belirleyen özellik cellpadding özelliğidir. Table etiketine ait bir özelliktir. Varasayılan değeri 0'dır tablo kenarlarndan ayırmak için cellpadding değerini arttırabiliriz.-->
+
+<!-- tr ya da td etiketine eklenen align özelliği satır/hücre içeriğinin yatay hizalmasını belirler.
+	Aldığı değerler: left, center, right Align özelliğinin var sayılan değeri left'dir.
+
+	İçeriğinin dikey hizalanmasını belirlemek için tr ya da td etiketine valign özelliği eklenir.
+	Aldığı değerler: top(üst), orta(center), bottom(alt)  Valign varsayılan değeri center-->
+
+	<!-- Tablo  satır yada hücrein arkaplan rengi ve yazı rengini belirlemek istersek arkaplan rengi bacground-color; yazı rengi ise color ile tanımlanır.-->
+</body>
+</html>

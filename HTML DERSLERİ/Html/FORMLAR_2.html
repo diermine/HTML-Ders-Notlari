@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>HTML Formlar ELEMANLARI</title>
+</head>
+<body>
+	<form action="Kayit.aspx" method="get">
+		<p>Lütfen aşağıda verilen listeden almak istediğiniz ders ya da dersleri seçiniz.</p>
+
+		<ol>
+			<li><input type="checkbox" name="ders" value="Ofis Yazilimlari" />Ofis Yazılımları</li>
+			<li><input type="checkbox" name="ders" value="Web Prog I" />Web Programlama</li>
+			<li><input type="checkbox" name="ders" value="Matematik" />Matematik</li>
+			<li><input type="checkbox" name="ders" value="Grafik" checked />Grafik ve Animasyon</li>
+		</ol>
+
+		<p>Cinsiyet Seçin:</p>
+		<input type="radio" name="cinsiyet" value="K" id="k" /><label for="k">Kadın</label>
+		<label><input type="radio" name="cinsiyet" value="E"/>Erkek</label>
+		<br/>
+		<br/>
+		<input type="submit" name="Kaydet"/>
+
+	</form>
+
+</body>
+</html>

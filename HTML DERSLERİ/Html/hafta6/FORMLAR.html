@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>HTML Formlar ELEMANLARI</title>
+</head>
+<body>
+	<form action="mailto:Pmyo@klu.edu.tr" method="post"/>
+
+		Adınızı Girin: <input type="text" name="ad" value="Adınızı Girin.." onclick="Javascript:this.value=''" />
+		 <br/>
+		 <br/>
+		Telefon Girin: <input type="text" name="alankod" size="1" maxlength="3" placeholder="..." /> <input type="text" name="tel" maxlength="9" size="8" placeholder="Telefon Girin" />
+		 <br/>
+		 <br/>
+		<textarea name="öneri" rows="5" cols="50" style="resize:none"></textarea>												
+		<br/>
+		<br/>
+		<input type="submit" value="Kaydet">
+		<input type="reset" value="İptal">
+
+	</form>
+<!--action parametresi forma girilen bilgileri hangi adrese gönderileceğini belirleri. Burası ya bir mail adresi olabilir ya da sunucu taraflı çalışan adreesi olabilir.-->
+<!--method parametresi form aracılığı ile elde edilen bilgilerin belirtirllen adrese ne şekilde gönderileceğini belirler. İki değer alabilir "get ve post" Get yönteminde form verileri URL adresi üzerinden gönderilir. Post yönteminde ise form verileri HTTP isteği üzerine yazılarak gönderilir. Daha güvenli bir yöntemdir.-->
+</body>
+</html>
